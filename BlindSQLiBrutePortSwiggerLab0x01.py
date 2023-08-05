@@ -3,7 +3,7 @@
 # To be used in a BlindSQLi Based on Conditional Response Lab By PortSwigger
 # https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses
 # To-do: Learn DSA and Maybe Improve This Crap
-# Worst Case: You have to wait ((number_of_characters*length_of_password)/60 + (req,res time) + 20 seconds) seconds
+# Worst Case: You have to wait ((number_of_characters*length_of_password)/60 + (req,res time) + 20 seconds) minutes
 
 import requests, sys, time
 from bs4 import BeautifulSoup
