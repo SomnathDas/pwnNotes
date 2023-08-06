@@ -128,7 +128,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
             if pTag:
                 pass
             else:
-                print("\n[+] Valid Password Found: {}".format(response[2]))
+                print("[+] Valid Password Found: {}".format(response[2]))
 
         except Exception as e:
             # Handle any exceptions that occurred during the request
