@@ -1,5 +1,5 @@
 #!/bin/python3
-# A Python script written to create keys with required payload, generate public key and sign a file to generate a signature file which and then send them to the target.
+# A Python script written to create keys (PGP Encryption) with required payload, generate public key and sign a file to generate a signature file which and then send them to the target.
 # This script was written to solve First Part of HackTheBox Machine Called "Sandworm". It exploits SSTI in the web application and achieves RCE (Remote Code Execution)
 # python3 GPGInjection.py <command_to_execute_on_machine> <file_to_be_signed(any file with any text)>
 # Example: python3 GPGInjection.py id test.txt
